@@ -1,2 +1,16 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Eagle and Gerber files are binary. Never normalise or diff them as text.
+*.brd binary
+*.sch binary
+*.GBL binary
+*.GBO binary
+*.GBS binary
+*.GTL binary
+*.GTO binary
+*.GTP binary
+*.GTS binary
+*.TXT binary
+*.dri binary
+*.gpi binary

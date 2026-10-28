@@ -1,0 +1,17 @@
+# PlatformIO
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# Eagle autosave and backup files
+*.b#*
+*.s#*
+*.l#*
+*.brd.bak
+*.sch.bak
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
